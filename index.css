@@ -92,8 +92,8 @@ ol li{
     width:10vw;
     height:10vw;
     text-align:center;
-    font-size:25px;
-    transform:rotate(-90deg);
+    font-size:35px;
+    /*transform:rotate(-90deg);*/
     background:transparent;
     color:#fff;
     position:fixed;
@@ -104,14 +104,14 @@ ol li{
     justify-content:center;
     z-index:4;
     transition:0.4s ease-in-out;
-    border-radius:0px 0px 100px 100px;
+    border-radius:0px 100px 100px 0px;
 }
 #work {
     width:10vw;
     height:10vw;
     text-align:center;
-    font-size:25px;
-    transform:rotate(90deg);
+    font-size:35px;
+    /*transform:rotate(90deg);*/
     background:transparent;
     color:#fff;
     position:fixed;
@@ -122,7 +122,7 @@ ol li{
     justify-content:center;
     z-index:4;
     transition:0.4s ease-in-out;
-    border-radius:0px 0px 100px 100px;
+    border-radius:100px 0px 0px 100px;
 }
 #contact {
     width:10vw;
@@ -397,7 +397,7 @@ a:active { text-decoration: none; color:#fff; }
     height:200px;
     padding-top: 20px;
     padding-left: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 #projectThree{
@@ -406,7 +406,7 @@ a:active { text-decoration: none; color:#fff; }
     height:170px;
     padding-top: 20px;
     padding-left: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 #projectFour{
