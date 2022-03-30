@@ -430,7 +430,6 @@ a:active { text-decoration: none; color:#fff; }
 .buttonProjects {
     font-size:16px;
     font-family: 'Josefin Sans', sans-serif;
-    text-underline: none;
     color:#fff;
     background:transparent;
     border:3px solid #fff;
@@ -444,6 +443,10 @@ a:active { text-decoration: none; color:#fff; }
     cursor:pointer;
     color: rgb(54, 89, 114);
     background:#fff;
+}
+
+a {
+    color:rgba(255, 255, 255,1)
 }
 
 
