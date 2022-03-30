@@ -5,8 +5,7 @@ body {
     margin:0px;
     background: rgb(60, 69, 105);
     width:100vw;
-    height:100vh;
-    overflow:hidden;
+    height:200vh;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -15,7 +14,7 @@ body {
     height:30vh;
     display:flex;
     flex-direction:column;
-    position:fixed;
+    position:relative;
     top:0;
     text-align:center;
     z-index:1;
@@ -33,19 +32,19 @@ body {
 
 #gallery {
     line-height:0;
-    -webkit-column-count:5; /* split it into 5 columns */
-    -webkit-column-gap:5px; /* give it a 5px gap between columns */
-    -moz-column-count:5;
-    -moz-column-gap:10px;
-    column-count:5;
-    column-gap:10px;
-    padding-top: 300px;
+    -webkit-column-count:4; /* split it into 5 columns */
+    -webkit-column-gap:50px; /* give it a 5px gap between columns */
+    -moz-column-count:4;
+    -moz-column-gap:12px;
+    column-count:4;
+    column-gap:75px;
+    padding-left: 250px;
     margin: auto;
 }
 #gallery img {
-    width: 100% !important;
+    width: 120% !important;
     height: auto !important;
-    margin-bottom:5px; /* to match column gap */
+    margin-bottom:10px; /* to match column gap */
 }
 
 @media (max-width: 1200px) {
