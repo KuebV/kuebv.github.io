@@ -27,10 +27,33 @@ body {
     color: rgb(255, 151, 31);
 }
 
-#early_section {
-    padding-left: 100px;
-    padding-top: 150px;
-    position: fixed;
-    font-family: 'Josefin Sans', sans-serif;
-    color: #fff;
+.gallery-center{
+    margin:auto;
 }
+
+#gallery {
+    line-height:0;
+    -webkit-column-count:5; /* split it into 5 columns */
+    -webkit-column-gap:5px; /* give it a 5px gap between columns */
+    -moz-column-count:5;
+    -moz-column-gap:10px;
+    column-count:5;
+    column-gap:10px;
+    padding-top: 300px;
+    margin: auto;
+}
+#gallery img {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom:5px; /* to match column gap */
+}
+
+@media (max-width: 1200px) {
+    #gallery {
+        -moz-column-count:    4;
+        -webkit-column-count: 4;
+        column-count:         4;
+    }
+}
+
+
