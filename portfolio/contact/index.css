@@ -1,0 +1,211 @@
+#title-header-main-box{
+    background:#343434;
+    width:100%;
+    height:6vw;
+    top: 0px;
+    left: 0px;
+
+    color: white;
+    position:relative;
+    align-content: center;
+
+
+}
+
+li {
+    margin: 8.5vw;
+    text-align: center;
+    list-style:none;
+    display:inline;
+}
+
+li:last-child{
+    margin-bottom: 0;
+}
+
+li a {
+    color: white;
+    display: inline-block;
+    font-size: 1.25vw;
+    margin:0.5vw;
+    font-family: 'JetBrains Mono', serif;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    position: inherit;
+    top: 1.5vw;
+
+    left: 3%;
+}
+
+.button-underline {
+    position: relative;
+    color: #ffffff;
+    text-decoration:none;
+}
+.button-underline:after {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 3px;
+    background-color: #ffffff;
+    content: "";
+    -webkit-transition: width 0.5s;
+    transition: width 0.5s;
+}
+.button-underline:before {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -5px;
+    width: 0;
+    height: 3px;
+    background-color: #ffffff;
+    content: "";
+    -webkit-transition: width 0.5s;
+    transition: width 0.5s;
+}
+.button-underline:hover:after,.button-underline:hover:before {
+    width: 120%;
+}
+
+#about-button{
+    font-size: 1.2vw;
+}
+
+#project-button{
+    font-size: 1.2vw;
+}
+
+#blog-button{
+    font-size: 1.2vw;
+}
+
+#contact-button{
+    font-size: 1.2vw;
+}
+
+.region-title{
+    margin: 0;
+    font-size: 3vw;
+    color: white;
+}
+
+body{
+    background-color: #484848;
+
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.rgbBorder{
+    background: linear-gradient( 45deg,  #12c2e9,  #c471ed,  #f64f59, #c1d500, #62ff2d );
+    width: 40vw;
+    height: 45vw;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+
+    justify-content: center;
+
+    position: relative;
+    margin: auto;
+
+    border-radius: 50px;
+}
+
+
+.form-document-box{
+    background-color: #2b2b2b;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    top: 0.3vw;
+
+    width: 39.5vw;
+    height: 44.5vw;
+
+    position: relative;
+    justify-content: center;
+
+    margin: auto;
+
+    border-radius: 50px;
+}
+
+.wrapper{
+    align-content: center;
+    text-align: center;
+    font-family: 'JetBrains Mono', serif;
+
+    position: relative;
+}
+
+#photo{
+    border-radius: 75%;
+    height: auto;
+    width: 20%;
+    margin: auto;
+}
+
+#titleText{
+    color: white;
+    font-size: 2.5vw;
+    padding-top: 2rem;
+}
+
+h3{
+    color: white;
+    font-size: 1vw;
+    padding-top: 1rem;
+}
+
+#links{
+    max-width: 100%;
+    width: 50%;
+
+    font-size: 1vw;
+}
+
+.form{
+    display:flex;
+}
+
+.form-input,.form-button{
+    font-family: inherit;
+    letter-spacing: 0.05vw;
+    height: 1.5vw;
+    font-size: 0.5vw;
+    width: 15vw;
+
+    background-color: #545454;
+    border: none;
+    color: white;
+
+    margin-bottom: 1vw;
+}
+
+.form-input::placeholder{
+    color: white;
+}
+
+#message-box{
+    height:5vw;
+    max-width: 15vw;
+    resize:none;
+    text-align: left;
+    color: white;
+}
