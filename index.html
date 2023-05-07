@@ -2,163 +2,113 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>KuebV's Portfolio.</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
     <link rel="stylesheet" href="index.css">
+    <title>Robert Thompson  </title>
 </head>
 <body>
-    <div id="loading">
-        <div id="spinner"></div>
-    </div>
-    <div id="particles-js"></div>
-    <div id="box">
-        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
-        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
-        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
-        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
-        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
-        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
-    </div>
-    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
-    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
-    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
-        <h1>Robert Thompson</h1>
-        <h2>Backend Developer / Photographer / Student</h2>
-        <h3>Contact me: bobwthomp@gmail.com</h3>
-        <h4> For my photography portfolio, click: <a href="photography/photography.html"> here </a></h4>
-        <h4> To view an updated version of my portfolio, go <a href="/portfolio/index.html"> here </a></h4>
+<header>
+    <div id="title-header-main-box">
+        <li>
+            <a href="/index.html" class="button-underline" id="about-button">About</a>
+        </li>
 
-        <div id="menu">
-            <a onclick="showabout()">about</a>
-            <a onclick="showwork()">work</a>
+        <li>
+            <a href="/projectShowcase/index.html" class="button-underline" id="project-button">Projects</a>
+        </li>
+
+        <li>
+            <a href="/contact/index.html" class="button-underline" id="contact-button">Contact Me</a>
+        </li>
+
+        <li>
+            <a href="https://github.com/KuebV" class="button-underline" id="github-button">Github</a>
+        </li>
+    </div>
+</header>
+
+<section>
+    <div id="main-content">
+
+        <div class="wrapper">
+            <h2 class="gradient-text" id="name-intro">I'm Robert Thompson</h2>
         </div>
-<!--        <table>-->
-<!--                <tr>-->
-<!--                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>-->
-<!--                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>-->
-<!--                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>-->
-<!--                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>-->
-<!--                </tr>-->
-<!--        </table>-->
-    </div>
-    <div id="work_container" class="container">
-        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
-        <h1>work.</h1>
-        <section>
-            <h2>On-Call IT</h2>
-            <p>
-                Maintaining, repairing, building and troubleshooting workstation computers, with setting up Windows 10 Server as an Email Server with Storage Server capabilities.
-            </p>
-            <div id="used">
-                <div><i class="fas fa-circle"></i>&nbsp;Windows 10 Server</div>
-                <div><i class="fas fa-circle"></i>&nbsp;Understanding of Computer Hardware</div>
-                <div><i class="fas fa-circle"></i>&nbsp;Developing Scripts & Software to assist in troubleshooting of workstations</div>
+
+        <div class="diagonal">
+            <div class="wrapper">
+                <h2 class="section-title">Software Developer</h2>
+                <p class="section-description">I develop software for individuals, businesses, and research teams.</p>
+                <p class="section-description">You can view some of the languages and my experience below:</p>
+
             </div>
-        </section>
+        </div>
 
-        <section>
-            <h2>ITF+ Certified</h2>
-            <p>
-                Certified by CompTIA
-            </p>
-            <div id="used">
-                <div><i class="fas fa-circle"></i>&nbsp;CompTIA</div>
+        <div class="cards">
+            <div class="info-card-border">
+                <div class="info-card">
+                    <h1 class="info-card-title-gradient"  id="csharp-info">C# / .NET</h1>
+                    <h1 class="info-card-title">Experience: 3+ Years</h1>
+                    <h2 class="info-card-description">.NET has been used in software such as Desktop Applications, Linux Servers, and WebAPI's using ASP.NET. </h2>
+                </div>
             </div>
-        </section>
+
+            <div class="info-card-border">
+                <div class="info-card">
+                    <h1 class="info-card-title-gradient" id="python-info">Python</h1>
+                    <h1 class="info-card-title">Experience: 2+ Years</h1>
+                    <h2 class="info-card-description">Python has been used a variety of software including, Sentiment Analysis, Image Recognition, Data Analysis, and WebAPI's with Flask</h2>
+                </div>
+            </div>
+
+            <div class="info-card-border">
+                <div class="info-card">
+                    <h1 class="info-card-title-gradient" id="cpp-info">C++</h1>
+                    <h1 class="info-card-title">Experience: 2+ Years</h1>
+                    <h2 class="info-card-description">C++ has been used in software that handles larger datasets in order to process data more efficiently, along with being used in software to modify data in other applications</h2>
+                </div>
+            </div>
+
+            <div class="info-card-border">
+                <div class="info-card">
+                    <h1 class="info-card-title-gradient" id="java-info">Java</h1>
+                    <h1 class="info-card-title">Experience: 1+ Year</h1>
+                    <h2 class="info-card-description">Java was used to learn the basics and fundamentals of Object Oriented Programming, in addition to being used in applications revolving around MongoDB & Minecraft Server Plugins</h2>
+                </div>
+            </div>
+
+            <div class="info-card-border">
+                <div class="info-card">
+                    <h1 class="info-card-title-gradient" id="r-info">R</h1>
+                    <h1 class="info-card-title">Experience: ~6 Months</h1>
+                    <h2 class="info-card-description">R was used when handling, and processing datasets for when I was being mentored by the Audrey Hendricks Research Group</h2>
+                </div>
+            </div>
+
+            <div class="info-card-border">
+                <div class="info-card">
+                    <h1 class="info-card-title-gradient" id="mic-info">Misc.</h1>
+                    <h1 class="info-card-title">Experience: ~1 Month</h1>
+                    <h2 class="info-card-description">Languages such as JavaScript, Rust, COBOL, and Ruby. I've used for 1-2 projects, but have not dedicated enough time into doing more with these languages</h2>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="diagonal-right">
+            <div class="wrapper">
+
+            </div>
+        </div>
+
     </div>
-    <div id="about_container" class="container">
-        <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
-            <h1>introduction</h1>
-            <section>
-                <h2>about me</h2>
-                <p>Hey! My name is Rob Thompson, and I'm currently studying Computer Information Systems (CIS), however, this is most commonly described as Applied Sciences. I'm currently attending Front Range Community College with possible aspirations to transfer to another four year university, but yet nothing is set in stone. </p>
-                <p>I write code, like a lot of code. I write the simplest solutions to a problem that some may not consider. I take all edge cases into consideration when writing, making sure to account for all issues and errors that may arise during the development period.</p>
-                <p>
-                    Programming Languages I have experience with:
-                    <ol type="1">
-                        <li>C# / .NET - Experience with API Development, Video Game Development, Windows Applications, MongoDB</li>
-                        <li>Python - Image & Text Recognition, REST API, MongoDB</li>
-                        <li>C++ - Data Structures, Software Development</li>
-                        <li>Java - API Development, Minecraft Plugins, MongoDB, SQL</li>
-                        <li>R - Data Processing, Graphing, Statistical Analysis</li>
-                    </ol>
-                </p>
-            </section>
 
-            <!-- project section-->
-            <section>
-                <h2>projects</h2>
+    <footer>
+        <h2>This website isn't a template! Yipee!</h2>
+    </footer>
+</section>
 
-                <!-- Image DB section-->
-                <div id="projectOne">
-                    <p>Watchtower - Application built as a commission, primarily used as an Activity Tracking Application, with active processes, mouse movement, and keyboard inputs all being used to measure whether the user is idle in that instance.</p>
-                    <p>*This is a closed-source project*</p>
-                    <div id="projectSections">
-                        <div><i class="fas fa-circle"></i>&nbsp;.NET WebForms + ASP.NET</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;MongoDB</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;Twilio</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;SendGrid</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;Cloudinary</div>
-                    </div>
-                </div>
 
-                <div id="projectTwo">
-                    <p>Sunrise Encryption - Started for the TSA Project of 2021-2022, but it evolved into a project centered around encryption. Additionally, it has features such as a custom made plugin framework, scripting languages, and you are able to write plugins for different types of encryption methods in different languages such as Python</p>
-                    <img src="programming/images/SunriseEncryption.png" alt="SunriseEncryption">
-                    <div id="projectSections">
-                        <div><i class="fas fa-circle"></i>&nbsp;.NET / C#</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;Python</div>
-                    </div>
-                    <a href="https://github.com/Monarch-Software-2021-2022/Sunrise-Encryption-GUI" class="buttonProjects">&nbsp;GitHub Repository</a>
-                </div>
 
-                <div id="projectThree">
-                    <p>Biotransformer Assistant - Formatting and Parsing SMILES Compounds to be inputted and ran through Biotransformer. Developed for the Audrey Hendricks Research Group with their study into food metabolisms</p>
-                    <img src="programming/images/BiotransformerAssistant.png" alt="BiotransformerAssistant">
-                    <div id="projectSections">
-                        <div><i class="fas fa-circle"></i>&nbsp;C#</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;R</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;GET API</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;WebSockets</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;Mono</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;.XML</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;Reading CSV Data</div>
-                    </div>
-                    <a href="https://github.com/KuebV/Biotransformer-Assistant-GUI" class="buttonProjects">&nbsp;GitHub Repository</a>
-                </div>
-
-                <div id="projectFour">
-                    <p>Kuebox Plugins - An array of lightweight Minecraft plugins with the maximum amount of configurability. This project is still being worked on occasionally.</p>
-                    <div id="projectSections">
-                        <div><i class="fas fa-circle"></i>&nbsp;Java</div>
-                    </div>
-                </div>
-
-                <div id="projectFive">
-                    <p>Portfolio Website - This very website is a project, I'm not familar with HTML or CSS at all, so even getting to this point has been a challenge</p>
-                    <div id="projectSections">
-                        <div><i class="fas fa-circle"></i>&nbsp;HTML</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;CSS</div>
-                    </div>
-                </div>
-
-                <div id="projectSix">
-                    <p>SCP: Escape Together - Volunteered as a Backend Developer for Escape Together, primarily fixing bugs, and implementing new features to be added in later updates</p>
-                    <div id="projectSections">
-                        <div><i class="fas fa-circle"></i>&nbsp;Unity</div>
-                        <div><i class="fas fa-circle"></i>&nbsp;.NET</div>
-                    </div>
-                    <a href="https://store.steampowered.com/app/1394270/SCP_Escape_Together/" class="buttonProjects">&nbsp;Steam Store Page</a>
-                </div>
-            </section>
-    </div>
-    <script src="index.js" type="text/javascript"></script>
-    <script src="particles.js"></script>
-    <script src="app.js"></script>
 </body>
 </html>
