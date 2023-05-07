@@ -90,7 +90,7 @@ li a {
 
 #main-content{
     width:100%;
-    padding-top: 5%;
+    padding-top: 3%;
     background: #252525;
 
     overflow-x: hidden;
@@ -104,6 +104,24 @@ li a {
     position: relative;
     color: white;
     font-size: 2vw;
+
+    height: 7.5vw;
+
+    transition: ease all 2s;
+
+    background: repeating-linear-gradient(-45deg,
+    #424242 9px, rgba(37, 37, 37, 0) 12px, rgba(37, 37, 37, 0) 12px, rgba(37, 37, 37, 0) 20px);
+
+    animation-name: carousel;
+    animation-duration: 120s;
+    animation-iteration-count: infinite;
+
+    background-size: 200% 200%;
+
+}
+
+#name-intro{
+    padding-top: 1.5vw;
 }
 
 body{
@@ -112,6 +130,15 @@ body{
     animation: gradient 15s ease infinite;
 
     min-height: 100vw;
+}
+
+@keyframes carousel{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: 100%;
+    }
 }
 
 
