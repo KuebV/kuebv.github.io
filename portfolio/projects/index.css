@@ -76,7 +76,7 @@ li a {
     font-size: 1.2vw;
 }
 
-#blog-button{
+#github-button{
     font-size: 1.2vw;
 }
 
@@ -114,12 +114,14 @@ body{
     margin: 0.5vw 0;
 
     width:98%;
-    height: 20vw;
+    height: 22vw;
 
     border-radius: 25px;
     background: #434343;
 
     font-family: 'JetBrains Mono', serif;
+
+    overflow-y:auto
 }
 
 .project-card-title{
@@ -146,4 +148,9 @@ body{
     color: white;
     width: 50%;
     font-size: 0.8vw;
+}
+
+
+.project-card::-webkit-scrollbar{
+
 }
