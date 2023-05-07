@@ -131,6 +131,7 @@ body{
     padding: 2vw;
     margin: 0 auto;
     text-align: center;
+    cursor: pointer;
 }
 
 .card {
@@ -197,10 +198,10 @@ body{
 .card:hover{
     transition: ease all 0.75s;
     transform: translateY(-0.5vw) scale(1.01);
-    box-shadow: 0.6vw 0.6vw #171717;
+    box-shadow: 1vw 1vw #171717;
 
     background: radial-gradient(
-            rgb(222, 222, 222) 5%,
+            rgb(194, 194, 194) 2%,
             #f3f3f3 8%
     );
     background-position: 2% 5%;
