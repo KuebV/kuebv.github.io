@@ -93,6 +93,7 @@ li a {
     background: #252525;
 
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 body{
