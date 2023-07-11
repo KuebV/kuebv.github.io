@@ -310,6 +310,14 @@ body{
     );
 }
 
+#dart-info{
+    background-image: linear-gradient(
+            -90deg,
+            #3694ff,
+            #0050ff
+    );
+}
+
 #mic-info{
     background-image: linear-gradient(
             -90deg,
