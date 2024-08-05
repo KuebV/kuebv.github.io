@@ -4,46 +4,36 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
   <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="index.css">'
-  <meta name="description" content="Robert Thompson's Software Developer Portfolio. This iw where I store a majority of my projects. I primary work with .NET, Java, Python, C++, and R. However I'm looking forward to learning more.">
-  <title>Robert Thompson  </title>
+  <title>Robert Thompson - Project Showcase</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
 </head>
 <body>
-
 <header>
-  <div id="title-header-main-box">
-    <li class="header-options">
-      <a href="/index.html" class="button-underline" id="about-button">About</a>
-    </li>
-
-    <li class="header-options">
-      <a href="/projectShowcase/index.html" class="button-underline" id="project-button">Projects</a>
-    </li>
-
-    <li class="header-options">
-      <a href="/contact/index.html" class="button-underline" id="contact-button">Contact Me</a>
-    </li>
-
-    <li class="header-options">
-      <a href="https://github.com/KuebV" class="button-underline" id="github-button">Github</a>
-    </li>
-  </div>
+  <nav>
+    <ul>
+      <li><a href="#about-me">About Me</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="/contact/index.html">Contact</a></li>
+      <li><a href="/projectShowcase/index.html">Projects</a></li>
+    </ul>
+  </nav>
 </header>
 
-<section>
-  <div id="main-content">
-
-    <div class="wrapper">
-      <h2 id="name-intro">Project Showcase</h2>
-    </div>
+<div class="main-content-border">
+  <div class="main-content">
+    <h2 class="header-title">Project Showcase</h2>
 
     <section class="cards">
       <article class="card">
         <div class="image-wrapper"><img class="card-image" src='/images/Instances.png' alt=''></div>
         <h1 class="card-title">Instances</h1>
         <p class="card-summary"> Utilizes Docker, MongoDB, and Python. </p>
-        <p class="card-summary"> Made for starting Multiplayer Servers instantly, and shutting them down when they are no longer in use. </p>
-        <p class="card-summary"> MongoDB tracks, and handles what servers are running on what ports, what servers are active, who owns the instance, and more. </p>
+        <p class="card-summary"> Starts and automatically stops Docker containers that aren't being used</p>
+        <p class="card-summary"> Automatically handles what servers are running on what ports, what servers are active, who owns the instance, and more. </p>
       </article>
       <a href="https://www.dronepoints.co/" style="color: #000000; text-decoration: none;">
         <article class="card">
@@ -61,8 +51,6 @@
             Terminal Retro-Game using the WindowsAPI written using C++. Worlds are procedurally generated using Cellular Automata.
           </p>
           <p class="card-summary">Player is able to craft, destroy, and build within the 2D world with over 10 different unique items / tiles to interact with.</p>
-          <p class="card-summary">Includes interactive menus to browse items, select items, and make decisions.</p>
-          <p class="card-summary">Written for CSC1061 - Computer Science 2</p>
         </article>
       </a>
       <a href="https://github.com/KuebV/Skipt" style="color: #000000; text-decoration: none;">
@@ -87,8 +75,7 @@
         <div class="image-wrapper"><img src="/images/Biotransformer%20Assistant.png" alt="" class="card-image"></div>
         <h1 class="card-title">Biotransformer Assistant</h1>
         <p class="card-summary">Written for the Audrey Hendricks Research Group. Specifically designed for assisting in the process of parsing, and handling Molecular Compounds and SMILES Formats</p>
-        <p class="card-summary">Take data directly from Excel Spreadsheets, and paste them directly into Biotransformer Assistant, and process the SMILES Formats again.</p>
-        <p class="card-summary">Has been remade C# and R for compatibility with other languages and usages</p>
+        <p class="card-summary">Take data directly from Excel Spreadsheets, and paste them directly into Biotransformer Assistant.</p>
       </article>
       <article class="card">
         <div class="image-wrapper"><img src="/images/Sunrise%20Encryption.png" alt="" class="card-image"></div>
@@ -120,11 +107,8 @@
       </article>
 
     </section>
-
   </div>
-
-</section>
-
+</div>
 
 
 </body>
